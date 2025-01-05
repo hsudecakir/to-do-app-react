@@ -152,6 +152,7 @@ body.dark-mode .input-container button, body.dark-mode .todo , body.dark-mode .t
   letter-spacing: -0.25px;
   color: var(--text-color);
   background-color: transparent;
+  flex-shrink: 0;
 }
 
 body.dark-mode .input-container input{
@@ -513,7 +514,10 @@ body.dark-mode .empty-todo-list-container p{
     color: var(--blue);
   }
   .edit-text{
-    display: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: -0.1944444477558136px;
   }
 }
 
