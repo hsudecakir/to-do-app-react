@@ -1,5 +1,5 @@
 import { useState } from "react";
-import TodoButtons from "./todoButtons";
+import TodoButtons from "./TodoButtons.jsx";
 
 export default function TodoList({ todos, setTodos, filteredTodos, setFilteredTodos, activeTodos, setActiveTodos, isMobile, activeFilter ,filterTodos }){
 

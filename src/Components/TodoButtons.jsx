@@ -1,4 +1,3 @@
-import { useState } from "react";
 import FilterButtons from "./FilterTodoButtons";
 
 export default function TodoButtons({ todos, setTodos, setFilteredTodos, activeTodos, isMobile,activeFilter ,filterTodos }){
